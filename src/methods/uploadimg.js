@@ -9,8 +9,8 @@ class MyUploadAdapter {
     // Starts the upload process.
     upload() {
         const formData = new FormData();
-        const url = 'http://apilan.news-age.tw/imgUpload/';
-
+        const url = 'https://api.news-age.tw/imgUpload/';
+       
       //  .post(`http://apilan.news-age.tw/imgUpload/`, formData)
         return new Promise((resolve) => {
             this.loader.file
