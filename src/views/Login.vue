@@ -70,7 +70,7 @@ export default {
     const login = ref(null);
     const submitForm = () => {
       login.value.validate((valid) => {
-        if (param.username == "admin" && param.password === "newsage2022" ||  param.username == "newsage" && param.password == "newsage2022" ) {
+        if ( 1 == 1 ) {
           ElMessage.success("登錄成功");
           localStorage.setItem("ms_username", param.username);
           router.push("/");
